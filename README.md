@@ -37,7 +37,7 @@ During the scan, Wireshark captured TCP SYN packets sent by Nmap to various host
 
 **Screenshot:**
 
-![Wireshark TCP SYN](Screenshot 2025-05-26 114335.png)
+![Wireshark TCP SYN](wireshark_screenshot.png)
 
 ### Filter Applied: tcp.flags.syn == 1 and tcp.flags.ack == 0
 
@@ -50,14 +50,14 @@ This filter shows only the SYN packets that are part of Nmap’s TCP SYN scan.
 | File Name                          | Description                                  |
 |-----------------------------------|----------------------------------------------|
 | `scan_result.txt`                 | Raw Nmap scan result                         |
-| `Screenshot 2025-05-26 114335.png`| Wireshark screenshot showing SYN packets     |
-| `scan_capture.pcapng`             | Full Wireshark packet capture file (optional)|
+| `wireshark_screenshot.png`| Wireshark screenshot showing SYN packets     |
+| `WiresharkScan.pcpng`             | Full Wireshark packet capture file |
 
 ---
 
 ## Conclusion
 
-- Learned to scan a local network and detect hosts/services.
+- Learned how to scan a local network and detect hosts/services.
 - Understood how firewalls affect visibility of services.
 - Observed raw TCP SYN packets using Wireshark for deeper understanding.
 
